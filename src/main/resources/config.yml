@@ -1,0 +1,6 @@
+PermissionMSG: "&cYou don't have permission to do that!"
+
+#how fast the pot splashes
+PotSpeed: 1
+
+# To reload the plugin after editing the value, use "/betterpots reload"

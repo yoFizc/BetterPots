@@ -1,0 +1,8 @@
+name: BetterPots
+version: '${project.version}'
+main: dev.fiz.betterpots.BetterPots
+commands:
+  betterpots:
+    aliases:
+      - betterpot
+      - bp
