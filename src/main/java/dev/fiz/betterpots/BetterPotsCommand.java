@@ -28,7 +28,7 @@ public class BetterPotsCommand implements CommandExecutor, TabCompleter {
                 return true;
             }
             if (args.length == 0) {
-                String msg = "&8[&5BetterPots&8] &fcustomizable potions plugin made by Fiz" +
+                String msg = "&8[&5BetterPots&8] &fcustomizable potions plugin" +
                         "\n&f/betterpots reload &8- &7Reloads the config" +
                         "\n&f/betterpots set <number> &8- &7Sets the PotSpeed value";
 
