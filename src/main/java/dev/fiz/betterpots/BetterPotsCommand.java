@@ -67,10 +67,10 @@ public class BetterPotsCommand implements CommandExecutor, TabCompleter {
     @Override
     public List<String> onTabComplete(CommandSender sender, Command command, String s, String[] args) {
         if (args.length == 1) {
-            List<String> args1 = new ArrayList<>();
-            args1.add("reload");
-            args1.add("set");
-            return args1;
+            List<String> completion = new ArrayList<>();
+            completion.add("reload");
+            completion.add("set");
+            return completion;
         }
 
         return null;
